@@ -17,7 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 
-header {
+header{
   background-color: #474f7a;
   height: 10vh;
   padding: 1rem;
@@ -78,7 +78,7 @@ main {
   justify-content: center;
   align-items: center;
 }
-.landing {
+.landing, .contact, .about, .xp {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -125,4 +125,16 @@ a {
   100% {
     transform: translateX(0) translateY(0) rotate(0);
   }
+}
+
+.contact{
+  text-align: center;
+}
+footer{
+  min-height: 10vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
