@@ -5,20 +5,21 @@
 }
 
 html {
-  background: rgb(71, 79, 122);
+  /* background: rgb(71, 79, 122);
   background: linear-gradient(
     90deg,
     rgba(57, 64, 98, 1) 0%,
     rgba(31, 37, 68, 1) 10%,
     rgba(31, 37, 68, 1) 90%,
     rgba(57, 64, 98, 1) 100%
-  );
+  ); */
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   color: #ffd0ec;
   scroll-behavior: smooth;
 }
 
-header{
-  background-color: #474f7a;
+header {
+  background-color: rgba(0, 0, 0, 0.587);
   height: 10vh;
   padding: 1rem;
   display: flex;
@@ -78,7 +79,10 @@ main {
   justify-content: center;
   align-items: center;
 }
-.landing, .contact, .about, .xp {
+.landing,
+.contact,
+.about,
+.xp {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,11 +100,11 @@ a {
   color: #81689d;
 }
 
-.socials{
+.socials {
   display: flex;
   gap: 1rem;
 }
-.calltoAction{
+.calltoAction {
   height: 5rem;
 }
 .jumping {
@@ -118,7 +122,6 @@ a {
     transform: translate(0);
   }
   75% {
-
     transform: translateY(-15px) rotate(360deg);
   }
 
@@ -127,10 +130,10 @@ a {
   }
 }
 
-.contact{
+.contact {
   text-align: center;
 }
-footer{
+footer {
   min-height: 10vh;
   padding: 1rem;
   display: flex;
